@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+main {
+  padding: 1rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li:hover {
+  cursor: pointer;
+}
+
+li {
+  padding: 10px;
+  margin: 5px;
+  background-color: gray;
+  color: white;
+}
+
+ul li.active {
+  background-color: red;
+}
